@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Прототипы функций
 int PrimeCount(int A, int B);
 float Square(float A, float B);
 
@@ -11,7 +10,7 @@ int main() {
         scanf("%d", &command);
 
         if (command == 0) {
-            printf("Switching not supported in this program.\n");
+            printf("Switching libraries is not supported in this program.\n");
         } else if (command == 1) {
             int A, B;
             scanf("%d %d", &A, &B);

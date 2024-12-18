@@ -15,3 +15,6 @@ int PrimeCount(int A, int B) {
     }
     return count;
 }
+float Square(float A, float B) {
+    return A * B;
+}
